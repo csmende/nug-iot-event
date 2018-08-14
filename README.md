@@ -1,9 +1,16 @@
 # nug-iot-event
 
-<title> IOT NUG </title>
 <html><body bgcolor=#fefefe>
 <font face = arial color=#1199ff>
-<h1> Getting setup for the IOT NUG! </h1>
+<h1> Getting setup for the IOT NUG Demo! </h1>
+
+<h2> Prerequisites </h2>
+<ul>
+<li> Grab some Wemos D1 Mini (or compatible) and some D11/22 & relay shields.</li>
+<li>Install node-red.</li>
+<li>Install InfluxDB (optional)</li>
+<li>Install Grafana (optional)</li>
+
 <h2> Install Serial Driver for Wemos boards </h2>
 <ul>
 <li> <a href="https://wiki.wemos.cc/downloads">https://wiki.wemos.cc/downloads</a></li>
@@ -21,7 +28,7 @@
 <h2> Configure Arduino IDE </h2>
 <li>Tools->Boards->Wemos D1R2 & mini</li>
 <li>Tools->Port-> TBD</li>
-<li>Grab this sketch: <a href="NUG_IOT_Demo.ino">NUG_IOT_Demo.ino</a></li>
+<li>Grab the Arduino sketch</li>
 </ul>
 
 <h2> Get onto the UI</h2>
